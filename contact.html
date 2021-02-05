@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> contact us  </title>
+        <link rel="stylesheet" href="css/screen.css">
+        <link rel="stylesheet" href="css/lightbox.css">
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/lightbox.min.js"></script>
+        <script type="text/javascript" src="js/declarativeToggle.js"></script>
+      </head>
+    <body>
+        <header class="contact-header">
+            <h1>contact us </h1>
+            <p>if u want anything related to web design please do contact us for the support </p>
+            
+            <span data-toggle-target=".site-nav" class="toggle-btn">MENU</span>
+            <nav class="site-nav">
+                <ul class="group">
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">about us </a></li>
+                    <li><a href="contact.html">contact us</a></li>
+                    <li><a href="portfolio.html">portfolio</a></li>
+                    <li><a href="grid.html">grid layout</a></li>
+                    <li><a href="flex.html">flex</a></li>
+                    <li><a href="myweb.html">myweb</a></li>
+                  </ul>
+            </nav>
+        </header>
+
+        <div class="thumbnails group">
+          <h3>GALLERY</h3>
+          <p>click on any one to view </p>
+        <a href="images/strawberry.jpg" data-lightbox="gallery"><img src="images/strawberry-thumb.jpg" alt="strawberry"></a>
+        <a href="images/dock.jpg" data-lightbox="gallery"><img src="images/dock-thumb.jpg" alt="dock"></a>
+        <a href="images/bee.jpg"  data-lightbox="gallery" ><img src="images/bee-thumb.jpg" alt="bee"></a>
+        <a href="images/bear.jpg"  data-lightbox="gallery"><img src="images/bear-thumb.jpg" alt="bear"></a>
+        <a href="images/squirrel.jpg"  data-lightbox="gallery"><img src="images/squirrel-thumb.jpg" alt="squirrel"></a>
+        <a href="images/trees.jpg"  data-lightbox="gallery"><img src="images/trees-thumb.jpg" alt="trees"></a>
+        <a href="images/water.jpg"  data-lightbox="gallery"><img src="images/water-thumb.jpg" alt="water"></a>
+        <a href="images/duck.jpg"  data-lightbox="gallery"><img src="images/duck-thumb.jpg" alt="duck"></a>
+        </div>
+
+        <form class="contact-form">
+
+            <label for="email" class="hidden-label">email</label>
+            <input type="email" name="email" id="email" placeholder="email">
+
+            <label for="password" class="hidden-label">password</label>
+            <input type="password" name="password" id="password" placeholder="password">
+
+            <select>
+                <option>initially view...</option>
+                <option>my profile</option>
+                <option>inbox</option>
+                <option>account settings</option>
+            </select>
+
+            <input type="submit" value="sign in">
+             
+            <label>
+                <input type="checkbox" name="remember" checked="checked" value="yes">
+                <span class="checkbox-text">stay signed in</span>
+            </label>
+        </form>
+
+        <table class="grocery-list">
+            <thead>
+              <tr>
+                <th class="col-item-name">Item Name</th>
+                <th class="col-quantity">Quantity</th>
+                <th class="col-price">Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Oranges</td>
+                <td>5</td>
+                <td>$3.00</td>
+              </tr>
+              <tr>
+                <td>Celery</td>
+                <td>2</td>
+                <td>$2.50</td>
+              </tr>
+              <tr>
+                <td>Garlic</td>
+                <td>2</td>
+                <td>$1.90</td>
+              </tr>
+              <tr>
+                <td>Bananas</td>
+                <td>6</td>
+                <td>$2.99</td>
+              </tr>
+              <tr>
+                <td>Onions</td>
+                <td>4</td>
+                <td>$3.00</td>
+              </tr>
+              <tr>
+                <td>Very long awkwardly named yet still delicious item here</td>
+                <td>4</td>
+                <td>$3.00</td>
+              </tr>
+              <tr>
+                <td>Carrots</td>
+                <td>12</td>
+                <td>$2.99</td>
+              </tr>
+            </tbody>
+          </table>
+    
+
+    </body>
+</html>

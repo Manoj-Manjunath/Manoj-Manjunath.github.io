@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title> about</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/screen.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/cycle2.js"></script>
+    <script type="text/javascript" src="js/declarativeToggle.js"></script>
+</head>
+
+<body>
+    <header class="home-header">
+        <h1> THIS IS GOING TO BE CRAZY</h1>
+        <p>my name is <span>manoj</span></p>
+        
+        <span data-toggle-target=".site-nav" class="toggle-btn">MENU</span>
+        
+        <nav class="site-nav">
+        <ul class="group">
+            <li><a href="index.html">home</a></li>
+            <li><a href="about.html">about us </a></li>
+            <li><a href="contact.html">contact us</a></li>
+            <li><a href="portfolio.html">portfolio</a></li>
+            <li><a href="grid.html">grid layout</a></li>
+            <li><a href="flex.html">flex</a></li>
+            <li><a href="myweb.html">myweb</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    
+    <div class="cycle-slideshow" data-cycle-slides=".slide" data-cycle-pause-on-hover="true">
+        
+        <span class="cycle-prev">&laquo</span>
+        <span class="cycle-next">&raquo</span>
+
+        <span class="cycle-pager"></span>
+
+        <div class="slide">
+            <img src="images/bee.jpg" alt="bee">
+            <div class="slide-text">
+                <h3>THIS IS BEE</h3>
+                <a href="#" class="btn-a">click here for action</a>
+            </div>
+        </div>
+
+        <div class="slide">
+            <img src="images/duck.jpg" alt="duck">
+            <div class="slide-text">
+                <h3>THIS IS A DUCK</h3>
+            </div>
+        </div>
+        
+        <div class="slide">
+
+            <img src="images/squirrel.jpg" alt="squirrel">
+            <div class="slide-text">
+                <h3>THIS IS SQUIRREL</h3>
+            </div>
+        </div>
+        
+    </div>
+
+    
+    
+    <h2>belive in yourself</h2> 
+    <img src="images/belive.jpg" width="700" height="500" alt=" my policy in life">
+    
+    <h1>MUSIC</h1>
+    <audio controls>
+        <source src="audios/narcos.mpeg" type="audio/mpeg" >
+            <a href="audios/narcos.mpeg"> narcos ringtone</a>
+    </audio>
+
+    <h1>VIDEO</h1>
+
+    <h4>i have included a video of ashe moral of the story song</h4>
+    <video controls>
+        <source src="videos/ashe_song.mp4" type="video/mp4">
+        your web rowser is outdated and does not support HTML video.please consider <a href="http://browserhappy.com"> for updating</a>
+    </video>
+
+    <div class="bird-home">
+        <h3>example-a</h3>
+        <img  src="images/bird.jpg" alt="picture of a bird">
+    </div>
+
+   
+
+
+
+    <div class="main-content">
+    <h2>example of an name input </h2>
+    <form>
+       
+        <label >first name:
+            <input type="text" name="firstName">
+        </label>
+        
+        <label for="last name">last name:</label>
+        <input  id="last name" type="text" name="lastName">
+        <input type="submit" value="submit">
+
+    </form>
+    <h2>example of an email input</h2>
+    <form>
+        <label for="email">email:</label>
+        <input id="email" type="email" name="email">
+        <input type="submit" value="save!">
+    </form>
+    <h2>exmaple of an telephone input</h2>
+    <form>
+        <label for="telephone">telephone</label>
+        <input id="telephone" type="tel" name="telephone">
+        <input type="submit" value="save!">
+    </form>
+
+    <h2>Example of a multi-line input:</h2>
+    <form>
+    <label for="yourMessage">Your Message:</label>
+    <textarea id="yourMessage" name="yourMessage"></textarea>
+    <input type="submit" value="Save!">
+    </form>
+
+    <h2> choose your favourite colour</h2>
+    <label for="favouriteColour">what is your favourite colour:</label>
+        
+    <select  id="favouriteColour" name="favourite colour">
+        <option value="colourred">red</option>
+        <option value="clourorange">orange</option>
+        <option value="colourgreen">green</option>
+        <option value="colouryellow">yellow</option>
+        <option value="colourblue">blue</option>
+        <option value="colourpurple">purple</option>
+    </select>
+
+    <h2>favourite meal</h2>
+
+    <fieldset>
+        <legend>what is your favourite meal?</legend>
+    <input type="radio" id="breakfast" name="favourite meal" value="meal1"><label for="breakfast">breakfast</label>
+    <input type="radio" id="brunch" name="favourite meal" value="meal2"><label for="brunch">brunch</label>
+    <input type="radio" id="lunch" name="favourite meal" value="meal3"><label for="lunch">lunch</label>
+    </fieldset> 
+    
+    <h2>which meals do you enjoy</h2>
+    <fieldset>
+        <legend>which meals do you enjoy?</legend>
+    <input type="checkbox" id="breakfast" name="favourite meal" value="meal1"><label for="breakfast">breakfast</label>
+    <input type="checkbox" id="brunch" name="favourite meal" value="meal2"><label for="brunch">brunch</label>
+    <input type="checkbox" id="lunch" name="favourite meal" value="meal3"><label for="lunch">lunch</label>
+    </fieldset> 
+
+    <h2>table to store groceries data</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>aisle</th>
+                <th>price</th>
+                <th>quantity</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td>all</td>
+                <td>N/A</td>
+                <td>$550.0</td>
+                <td>N/A</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>bread</td>
+                <td>2</td>
+                <td>$3.00</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>milk</td>
+                <td>1</td>
+                <td>$2.50</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+      
+       
+    </table>
+    
+
+    <h1>sample page</h1>
+    <p>A brief paragraph with only one sentence here.</p>
+    <h2>welcome to the homepage.learn more about my hobbies<a href="myweb.html">myweb</a></h2>
+    <h3>this gives a brief introduction about the hobbies i like </h3>
+    <h2>belive in yourself</h2>
+    
+    <svg width="277" height="450" viewBox="0 0 277 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="277" height="450" fill="white"/>
+        <rect x="21" y="58" width="108" height="117" fill="#259DF3"/>
+        <path d="M21 331L93 211L143 259L197 356L150 411V331H21Z" fill="#7297F7" stroke="#74B930"/>
+        <ellipse cx="210" cy="116.5" rx="36" ry="95.5" fill="#C72C2C"/>
+        <ellipse cx="104" cy="94" rx="18" ry="11" fill="#C4C4C4"/>
+        <ellipse cx="54" cy="94" rx="21" ry="11" fill="#C4C4C4"/>
+        </svg>
+      
+    </div>
+
+    <footer>
+        <p>this is the end of the page</p>
+    </footer>
+</body>
+
+</html>
